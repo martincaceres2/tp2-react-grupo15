@@ -31,6 +31,16 @@ El objetivo es demostrar habilidades en:
 - **Manejo de estados**: Se utiliza useState para manejar el estado de la API y del menú hamburguesa.
 - **Diseño responsive**: Implementación de un menú hamburguesa "off-canvas" para móviles (<= 900px).
 
+## 🏛️ Arquitectura del proyecto (requisito 7)
+
+### 1. Árbol de Renderizado (Jerarquía de Componentes)
+[Arbol de componentes] => (/public/diagrama-componentes.jpg)
+
+### 2. Diagrama de Organización de Carpetas
+[Estructura de carpetas] => (/public/diagrama-carpetas.jpg)
+
+
+
 ## 🚀 Cómo correr el proyecto localmente
 
 1- Clonar el repositorio:
