@@ -91,7 +91,7 @@ Este diagrama ilustra la jerarquía de componentes y su relación de renderizado
 - Martin Caceres - Integrante 1 (Jon Snow)
 - Rocio  Pesqueira - Integrante 2 (Daenerys Targaryen)
 - Gerardo Fabián Quispe - Integrante 3 (Jaime Lannister)
-- Nicolas Francisco	Garay Lucena - Integrante 4 (Tyrion Lannister)
+- Nicolás Francisco	Garay Lucena - Integrante 4 (Tyrion Lannister)
 
 ---
 
