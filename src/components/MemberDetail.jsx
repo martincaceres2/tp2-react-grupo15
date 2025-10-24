@@ -32,10 +32,10 @@ function MemberDetail() {
     3: {
       name: "Jaime Lannister",
       image: jaime,
-      location: "Casterly Rock - 35 años",
+      location: "Casterly Rock - 32 años",
       skills: ["Figma", "Adobe XD", "Sketch", "Photoshop"],
-      movies: ["Inception", "Gladiador", "Braveheart"],
-      music: ["U2", "Queen", "The Beatles"],
+      movies: ["Depredador", "Lo que el viento se llevo", "Das Boot"],
+      music: ["Jorge Cafrune y Marito", "Los Kjarkas", "Jose Luis Perales"],
       quote:
         "Los héroes siempre serán recordados. Los mejores y los peores. Y algunos que fueron un poco de ambos.",
     },
