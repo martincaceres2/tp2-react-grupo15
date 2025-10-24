@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import "../styles/style.css";
 
+import jonSnow from "../assets/jon-snow.jpg";
+import daenerys from "../assets/daenerys-targaryen.jpg";
+import jaime from "../assets/jaime-lannister.jpeg";
+import tyrion from "../assets/tyrion-lannister.jpg";
+
 function Home() {
   const scrollToAboutUs = () => {
     const aboutUsSection = document.getElementById("about-us");
@@ -57,25 +62,25 @@ function Home() {
         <h2>NOSOTROS</h2>
         <div className="team-cards">
           <TeamCard
-            image="jon-snow.jpg"
+            image={jonSnow}
             name="Jon Snow"
             role="Desarrollador backend"
             memberId="1"
           />
           <TeamCard
-            image="daenerys-targaryen.jpg"
+            image={daenerys}
             name="Daenerys Targaryen"
             role="Desarrolladora frontend"
             memberId="2"
           />
           <TeamCard
-            image="jaime-lannister.jpeg"
+            image={jaime}
             name="Jaime Lannister"
             role="Diseñador UX/UI"
             memberId="3"
           />
           <TeamCard
-            image="tyrion-lannister.jpg"
+            image={tyrion}
             name="Tyrion Lannister"
             role="QA/Testing"
             memberId="4"
@@ -89,7 +94,7 @@ function Home() {
 function TeamCard({ image, name, role, memberId }) {
   return (
     <div className="team-card">
-      <img src={`/src/assets/${image}`} alt={name} />
+      <img src={image} alt={name} />
       <h3>{name}</h3>
       <p>{role}</p>
       <Link to={`/member/${memberId}`} className="btn">

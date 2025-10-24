@@ -14,7 +14,7 @@ body {
 
 .main-page {
     height: 100vh;
-    background: url("/public/got-background.jpg") no-repeat center center fixed;
+    background: url("/got-background.jpg") no-repeat center center fixed;
     background-size: cover;
     position: relative;
     width: 100%;
@@ -218,7 +218,7 @@ body {
     padding: 40px 20px;
     color: #eee;
     text-align: center;
-    background: url("/public/got-dragon.jpg") no-repeat center center fixed;
+    background: url("/got-dragon.jpg") no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     position: relative;
@@ -303,7 +303,7 @@ body {
 
 .log-page {
     min-height: 100vh;
-    background: url("/public/got-dragon.jpg") no-repeat center center fixed;
+    background: url("/got-dragon.jpg") no-repeat center center fixed;
     background-size: cover;
     position: relative;
     display: flex;
