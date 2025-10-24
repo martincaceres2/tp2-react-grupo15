@@ -35,7 +35,7 @@ El objetivo es demostrar habilidades en:
 
 1- Clonar el repositorio:
 
-  git clone [repositorio]
+  git clone [(https://github.com/martincaceres2/tp2-react-grupo15)]
 
 2- Instalar dependencias:
 
