@@ -7,6 +7,7 @@ Este proyecto es la evolución del TP1, migrando el sitio estático a una SPA (S
 La página, ambientada en Game of Thrones, utiliza React Router DOM para la navegación, consume un JSON local (para la sección "Casas") y una API pública (para "Personajes"). El objetivo es demostrar habilidades en componentización, manejo de estados, hooks, routing y consumo de APIs.
 
 El objetivo es demostrar habilidades en:
+
 - Migración de un sitio estático a una SPA (Single Page Application) con React
 - Implementación de rutas y navegación client-side (React Router DOM).
 - Manejo de estado (Hooks useState) y ciclo de vida (Hooks useEffect).
@@ -23,7 +24,9 @@ El objetivo es demostrar habilidades en:
 - **Vercel** (Para despliegue)
 
 ---
+
 ## ⚙️ Funcionalidades principales
+
 - **Navegación SPA**: Uso de react-router-dom para navegar entre secciones sin recargar la página.
 - **Componentización**: El layout se divide en componentes reutilizables.
 - **Datos locales (JSON)**: La sección "Casas" renderiza datos dinámicamente desde un archivo houses.json local.
@@ -33,13 +36,39 @@ El objetivo es demostrar habilidades en:
 
 ## 🏛️ Arquitectura del proyecto (requisito 7)
 
-### 1. Árbol de Renderizado (Jerarquía de Componentes)
-[Arbol de componentes] => (/public/diagrama-componentes.jpg)
+### 1. Estructura de Carpetas del Proyecto
 
-### 2. Diagrama de Organización de Carpetas
-[Estructura de carpetas] => (/public/diagrama-carpetas.jpg)
+Este diagrama muestra la organización completa de archivos y carpetas de nuestra aplicación React:
 
+![Diagrama de Organización de Carpetas](./public/diagrama-carpetas.jpg)
 
+**Descripción:**
+
+- **Raíz del proyecto**: Contiene archivos de configuración como `package.json`, `vite.config.js`, y el punto de entrada `index.html`
+- **Carpeta `public/`**: Recursos estáticos como imágenes de fondo, logos y diagramas
+- **Carpeta `src/`**: Código fuente de la aplicación
+  - **`assets/`**: Imágenes de los miembros del equipo y personajes
+  - **`components/`**: Componentes React reutilizables
+  - **`data/`**: Archivo JSON local con información de las casas
+  - **`styles/`**: Archivos CSS para estilos
+
+### 2. Árbol de Componentes React
+
+Este diagrama ilustra la jerarquía de componentes y su relación de renderizado:
+
+![Árbol de Componentes React](./public/diagrama-componentes.jpg)
+
+**Descripción:**
+
+- **`App`**: Componente principal que contiene toda la aplicación
+- **`Sidebar`**: Menú de navegación lateral
+- **`Routes`**: Sistema de enrutamiento que maneja las diferentes vistas
+- **Vistas principales**: 
+  - **`Home`**: Página de inicio con información del equipo
+  - **`ProjectLog`**: Bitácora del proyecto con detalles de miembros
+  - **`Characters`**: Lista de personajes consumidos desde API externa
+  - **`Houses`**: Información de casas desde JSON local
+- **Flujo de datos**: Muestra cómo se renderizan componentes hijos y se consumen datos tanto locales como de APIs externas
 
 ## 🚀 Cómo correr el proyecto localmente
 
